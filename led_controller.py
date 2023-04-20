@@ -38,13 +38,13 @@ def close():
 
 
 ### WIDGETS ###
-red_radio_button = tk.Radiobutton(root, text="Red", variable=selected_color, value="red", command=on_color_sele>
+red_radio_button = tk.Radiobutton(root, text="Red", variable=selected_color, value="red", command=on_color_selection>
 red_radio_button.pack()
 
-green_radio_button = tk.Radiobutton(root, text="Green", variable=selected_color, value="green", command=on_colo>
+green_radio_button = tk.Radiobutton(root, text="Green", variable=selected_color, value="green", command=on_color_selection>
 green_radio_button.pack()
 
-blue_radio_button = tk.Radiobutton(root, text="Blue", variable=selected_color, value="blue", command=on_color_s>
+blue_radio_button = tk.Radiobutton(root, text="Blue", variable=selected_color, value="blue", command=on_color_selection>
 blue_radio_button.pack()
 
 exit_button = tk.Button(root, text="Exit", command = close, bg = "red", height=1, width=24)
